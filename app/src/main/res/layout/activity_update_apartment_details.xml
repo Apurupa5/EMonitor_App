@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="apurupa.iiitd.com.energyapp.UpdateApartmentDetailsActivity"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apartment No"
+        android:id="@+id/UpdateApartmentNoTextView"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/textColor"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+
+
+    <TextView
+        android:id="@+id/UpdateApartmentNo_text_input"
+        android:layout_height="40dp"
+        android:layout_width="162dp"
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="85dp"
+
+        android:inputType="text"
+
+        android:textAppearance="?android:attr/textAppearanceMedium"
+
+        android:textColor="@color/textColor"
+        android:layout_gravity="center_horizontal" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="Adults"
+        android:textColor="@color/textColor"
+        android:id="@+id/UpdateAdultsTextView"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+
+
+    <Spinner
+        android:id="@+id/UpdateAdultsSpinner"
+        android:layout_width="176dp"
+        android:layout_height="50dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="168dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="Children"
+        android:textColor="@color/textColor"
+        android:id="@+id/UpdateChildrenTextView"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="20dp"
+
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+
+    <Spinner
+        android:id="@+id/UpdateChildrenSpinner"
+        android:layout_width="176dp"
+        android:layout_height="50dp"
+
+        android:spinnerMode="dropdown"
+        style="@style/Widget.AppCompat.DropDownItem.Spinner"
+        android:background="@android:drawable/btn_dropdown"
+        android:popupBackground="@color/bgBottomNavigation"
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="168dp"/>
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="UPDATE"
+        android:id="@+id/updateButton"
+
+        android:textAlignment="center"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="87dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+
+        android:textColor="@color/colorPrimary"
+        android:background="@color/textColor"
+        />
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:id="@+id/backButton"
+
+        android:textAlignment="center"
+        android:layout_marginTop="-46dp"
+        android:layout_gravity="left|center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+
+        android:textColor="@color/colorPrimary"
+        android:background="@color/textColor"
+        />
+
+
+</LinearLayout>

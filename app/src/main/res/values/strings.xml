@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">EMonitor</string>
+    <string name="google_status_fmt">\" "</string>
+    <string name="firebase_status_fmt">" "</string>
+    <string name="title_home">Home</string>
+    <string name="title_stats">Stats</string>
+    <string name="title_menu">menu</string>
+
+    <string name="title_activity_tabbar">TabbarActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_apartment_textview">Update Apartment Details</string>
+    <string name="menu_logout_textview">Logout</string>
+    <string name="server_api_key">AAAAUqHDKeE:APA91bErBO1iCow7N3FdFgPVG3khtKSZ-lLLvpn0rLnCFfCK4oRKr7mA7YODGtHthm8wyZi1A2scQVsy1f4m_bdHmvD1nbBHNXs370y6euJ68IfhR5M-D_2lt4WI7XpZkmyodtU3qx60</string>
+    <string name="FCM_PUSH_URL">https://fcm.googleapis.com/fcm/send</string>
+    <string name="Status"> Your request is still pending. Please sign in  after sometime.</string>
+</resources>
